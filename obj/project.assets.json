@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Yousef\\.nuget\\packages\\": {}
+    "C:\\Users\\Youse\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\users\\yousef\\dev\\.netcorewebapp\\mywebapp\\mywebapp.csproj",
+      "projectUniqueName": "C:\\Users\\Youse\\dev\\myaspcore\\mywebapp.csproj",
       "projectName": "mywebapp",
-      "projectPath": "C:\\users\\yousef\\dev\\.netcorewebapp\\mywebapp\\mywebapp.csproj",
-      "packagesPath": "C:\\Users\\Yousef\\.nuget\\packages\\",
-      "outputPath": "C:\\users\\yousef\\dev\\.netcorewebapp\\mywebapp\\obj\\",
+      "projectPath": "C:\\Users\\Youse\\dev\\myaspcore\\mywebapp.csproj",
+      "packagesPath": "C:\\Users\\Youse\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Youse\\dev\\myaspcore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yousef\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Youse\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
