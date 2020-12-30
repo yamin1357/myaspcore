@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "dotnet build"
+                //sh "dotnet build"
             }
         }
         stage('Test') {
             steps {
-                echo 'dotnet test'
+                //echo 'dotnet test'
             }
         }
         stage('Deploy') {
             steps {
-                sh "dotnet publish"
+                //sh "dotnet publish"
                 sh "cd /var/lib/jenkins/workspace/myaspcore/bin/Debug/netcoreapp3.1/publish/"
                 sh "echo $USER"
 
