@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Stage Test'
+                echo 'dotnet test'
             }
         }
         stage('Deploy') {
