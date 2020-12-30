@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "pwd"
+                sh "dotnet build"
             }
         }
         stage('Test') {
@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Stage Deploy'
+                sh "dotnet publish"
             }
         }
     }
