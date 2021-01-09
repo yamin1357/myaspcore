@@ -15,12 +15,7 @@ pipeline {
             }
          }
 
-        stage('Build') {
-            steps {
-                sh "echo 'dotnet build'"
-            }
-        }
-        stage('Test') {
+         stage('Test') {
             steps {
                 sh "echo 'dotnet test' "
             }
