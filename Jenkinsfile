@@ -17,17 +17,17 @@ pipeline {
 
         stage('Build') {
             steps {
-               // sh "dotnet build"
+                sh "echo 'dotnet build'"
             }
         }
         stage('Test') {
             steps {
-               // sh "dotnet test "
+                sh "echo 'dotnet test' "
             }
         }
-        stage('Deploy') {
+        stage('dotnet publish') {
             steps {
-               // sh "dotnet publish"    
+                sh "echo 'publish'"    
                                
                 
             }
