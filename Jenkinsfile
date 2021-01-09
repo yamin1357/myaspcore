@@ -17,7 +17,7 @@ pipeline {
                 sh "dotnet publish"
                 sh "rm -fr /tmp/publish/*"
                 sh "cd /var/lib/jenkins/workspace/myaspcore/bin/Debug/netcoreapp3.1"
-                sh "sodu cp -R publish/* /tmp/publish"
+                sh "cp -R publish/* /tmp/publish"
             }
         }
     }
