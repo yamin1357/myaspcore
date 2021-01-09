@@ -14,8 +14,9 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh "dotnet publish"                   
-                sh "cd /var/lib/jenkins/workspace/myaspcore/bin/Debug/netcoreapp3.1"                
+                sh "dotnet publish"    
+                sh "git tag --sort version:refname"               
+                
             }
         }
     }
