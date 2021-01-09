@@ -14,8 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh "dotnet publish"   
-                sh "pwd"             
+                sh "dotnet publish"                   
                 sh "cd /var/lib/jenkins/workspace/myaspcore/bin/Debug/netcoreapp3.1"                
             }
         }
