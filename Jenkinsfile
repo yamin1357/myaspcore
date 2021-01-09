@@ -14,10 +14,9 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh "dotnet publish"
-                sh "rm -fr /tmp/publish/*"
-                sh "cd /var/lib/jenkins/workspace/myaspcore/bin/Debug/netcoreapp3.1"
-                sh "cp -R publish/* /tmp/publish"
+                sh "dotnet publish"   
+                sh "pwd"             
+                sh "cd /var/lib/jenkins/workspace/myaspcore/bin/Debug/netcoreapp3.1"                
             }
         }
     }
