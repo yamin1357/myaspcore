@@ -11,7 +11,7 @@ pipeline {
              env.BUILD_VERSION = latestTag
              echo "env-BUILD_VERSION"
              echo "${env.BUILD_VERSION}"
-             echo "test script 15 "
+             echo "test script 16 "
                 }
             }
          }
