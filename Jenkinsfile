@@ -17,12 +17,12 @@ pipeline {
 
          stage('Test') {
             steps {
-                sh "echo 'dotnet test' "
+                sh "echo  'dotnet test' "
             }
         }
         stage('dotnet publish') {
             steps {
-                sh "echo 'publish'"    
+                sh "echo  'publish'"    
                                
                 
             }
