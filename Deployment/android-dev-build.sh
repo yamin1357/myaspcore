@@ -2,5 +2,4 @@
 hostname
 cat /etc/resolv.conf
 pwd
-dotnet build
-dotnet run
+echo $flavour1
