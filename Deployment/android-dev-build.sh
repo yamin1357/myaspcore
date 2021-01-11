@@ -1,4 +1,1 @@
-#!/bin/bash
-ls
-hostname
-pwd
+tttttttt
